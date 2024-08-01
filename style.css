@@ -10,8 +10,10 @@
 }
 
 * {
+
     /* margin: 0; */
     box-sizing: border-box;
+
 }
 
 /* styling header */
@@ -52,174 +54,204 @@ nav ul li {
 }
 
 body {
-    background-color: #F5F7F8;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-
+  background-color: #f5f7f8;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 /* Left Colomn */
 
 /* Profile */
 .profile {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    background-color: ffffff;
-    text-align: center;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    border-radius: 5px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
 }
 
 .profile h3 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .profile .avatar img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .profile hr {
-    width: 300px;
+  width: 300px;
 }
 
 .profile-description {
-    text-align: left;
-    padding: 0 20px;
+  text-align: left;
+  padding: 0 20px;
 }
 
 .profile-description ion-icon {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .profile-description p {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 /* Accordion */
 .accordion {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    border-radius: 5px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
 }
 
 .accordion p {
-    padding-left: 20px;
-    font-weight: 300;
+  padding-left: 20px;
+  font-weight: 300;
 }
 
 .accordion-buttons {
-    background-color: #399DE5;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    text-align: left;
-    font-size: 15px;
-
+  background-color: #399de5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 15px;
 }
 
 .accordion-buttons ion-icon {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .accordion-buttons:hover {
-    background-color: #d3d3d3;
-    color: #000000;
+  background-color: lightgray;
+  color: black;
 }
 
 .photos {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 20px;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
 }
 
 .photos img {
-    width: 47%;
+  width: 47%;
 }
 
 /* Interests */
 .interests {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    border-radius: 5px;
-    padding: 10px 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 10px 20px;
 }
 
 .interests-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    gap: 10px;
-    font-size: 15px;
-    font-weight: 100;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 100;
 }
 
 .interests-buttons span {
-    padding: 0 5px;
+  padding: 0 5px;
 }
 
 .darkblue-button {
-    color: #ffffff;
-    background-color: #216490;
+  color: white;
+  background-color: #216490;
 }
 
 .blue-button {
-    color: #ffffff;
-    background-color: #399DE5;
+  color: white;
+  background-color: #399de5;
 }
 
 .darkgrey-button {
-    background-color: #9EB1BB;
+  background-color: #9eb1bb;
 }
 
 .grey-button {
-    background-color: #BECBD2;
+  background-color: #becbd2;
 }
 
 .lightgrey-button {
-    background-color: #DFE5E8;
+  background-color: #dfe5e8;
 }
 
 .verylightgrey-button {
-    background-color: #F5F7F8;
+  background-color: #f5f7f8;
 }
 
 /* Alert Box */
 .alert-box {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    background-color: #DFE5E8;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    border-radius: 5px;
-    padding: 10px 20px;
-    position: relative;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #dfe5e8;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
 }
 
 .close-button {
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    right: 0;
-    font-size: 20px;
-    padding: 5px 10px;
-    background-color: #becbd2;
-    cursor: pointer;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  padding: 5px 10px;
+  background-color: #becbd2;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .close-button:hover {
-    background-color: #9EB1BB
+  background-color: #9eb1bb;
 }
+
+/* Main-col start */
+.main-box {
+  background-color: #fff;
+  padding: 9px 15px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+.main-box form input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+.main-box form button {
+  font-size: 14px;
+  padding: 10px 15px;
+  background-color: #199de5;
+  color: #fff;
+  border: none;
+}
+.main-box form button:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+/* Main-col end */
+
