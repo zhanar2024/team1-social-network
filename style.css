@@ -1,0 +1,49 @@
+:root {
+  --dark-blue: #216490;
+  --light-blue: #399de5;
+  --light-gray: lightgray;
+  --dark-gray: #9eb1bb;
+  --box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  --project-font: "Open sans", sans-serif;
+}
+
+* {
+  margin: 0;
+}
+/* styling header */
+nav {
+  background-color: #399de5;
+}
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 15px 25px;
+  font-size: 20px;
+}
+.logo {
+  background-color: #216490;
+  margin-left: -40px;
+}
+
+/* styling footer */
+.light-blue-footer {
+  background-color: #399de5;
+  color: white;
+  padding: 30px 10px;
+  font-family: var(--project-font);
+}
+
+.dark-blue-footer {
+  background-color: #216490;
+  color: white;
+  padding: 20px 10px;
+}
+
+.white-font {
+  color: white;
+  font-family: var(--project-font);
+}
