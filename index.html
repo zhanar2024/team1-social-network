@@ -1,83 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Network Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Social Network Project</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <!-- Maksat start -->
-  <!-- Left column start -->
-  <div class="left-column">
-    <!-- Profile -->
-    <div class="profile">
-      <h3>My Profile</h3>
-      <p class="avatar"> <img
-          src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/marat.jpg"
-          alt="avatar"></p>
-      <hr>
-      <div class="profile-description">
-        <p><ion-icon name="pencil-outline"></ion-icon>Software Engineer</p>
-        <p><ion-icon name="home"></ion-icon>Seattle, WA</p>
-        <p><ion-icon name="calendar"></ion-icon>April 10</p>
+  <body>
+    <!-- Maksat start -->
+    <!-- Left column start -->
+    <div class="left-column">
+      <!-- Profile -->
+      <div class="profile">
+        <h3>My Profile</h3>
+        <p class="avatar">
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/marat.jpg"
+            alt="avatar"
+          />
+        </p>
+        <hr />
+        <div class="profile-description">
+          <p><ion-icon name="pencil-outline"></ion-icon>Software Engineer</p>
+          <p><ion-icon name="home"></ion-icon>Seattle, WA</p>
+          <p><ion-icon name="calendar"></ion-icon>April 10</p>
+        </div>
+      </div>
+      <br />
+      <!-- Accordion -->
+      <div class="accordion">
+        <button class="accordion-buttons">
+          <ion-icon name="reload"></ion-icon>My Groups
+        </button>
+        <p>Some text...</p>
+        <button class="accordion-buttons">
+          <ion-icon name="calendar-number"></ion-icon>My Events
+        </button>
+        <p>Some other text...</p>
+        <button class="accordion-buttons">
+          <ion-icon name="people"></ion-icon>My Photos
+        </button>
+        <div class="photos">
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/lights.jpg"
+            alt="nature"
+          />
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg"
+            alt="nature"
+          />
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/mountains.jpg"
+            alt="nature"
+          />
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/forest.jpg"
+            alt="nature"
+          />
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg"
+            alt="nature"
+          />
+          <img
+            src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/snow.jpg"
+            alt="nature"
+          />
+        </div>
+      </div>
+      <br />
+      <!-- Interests -->
+      <div class="interests">
+        <p>Interests</p>
+        <div class="interests-buttons">
+          <span class="darkblue-button">News</span>
+          <span class="darkblue-button">Seytech</span>
+          <span class="blue-button">Algos</span>
+          <span class="blue-button">Games</span>
+          <span class="blue-button">Friends</span>
+          <span class="blue-button">Games</span>
+          <span class="blue-button">Friends</span>
+          <span class="darkgrey-button">Food</span>
+          <span class="grey-button">Design</span>
+          <span class="lightgrey-button">Art</span>
+          <span class="verylightgrey-button">Photos</span>
+        </div>
+      </div>
+      <br />
+      <!-- Alert Box -->
+      <div class="alert-box">
+        <span class="close-button"><ion-icon name="close"></ion-icon></span>
+        <p>Hey!</p>
+        <p>People are looking at your profile. Find out who.</p>
       </div>
     </div>
-    <br>
-    <!-- Accordion -->
-    <div class="accordion">
-      <button class="accordion-buttons"><ion-icon name="reload"></ion-icon>My Groups</button>
-      <p>Some text...</p>
-      <button class="accordion-buttons"><ion-icon name="calendar-number"></ion-icon>My Events</button>
-      <p>Some other text...</p>
-      <button class="accordion-buttons"><ion-icon name="people"></ion-icon>My Photos</button>
-      <div class="photos">
-        <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/lights.jpg"
-          alt="nature">
-        <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg"
-          alt="nature">
-        <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/mountains.jpg"
-          alt="nature">
-        <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/forest.jpg"
-          alt="nature">
-        <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg"
-          alt="nature">
-        <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/snow.jpg"
-          alt="nature">
+    <!-- Left column end -->
+
+    <!-- Main column start -->
+    <div class="main-col">
+      <div class="main-box">
+        <form action="">
+          <input type="text" value="Status: Feeling Blue" />
+          <br />
+          <button><ion-icon name="pencil-outline"></ion-icon> Post</button>
+        </form>
       </div>
     </div>
-    <br>
-    <!-- Interests -->
-    <div class="interests">
-      <p>Interests</p>
-      <div class="interests-buttons">
-        <span class="darkblue-button">News</span>
-        <span class="darkblue-button">Seytech</span>
-        <span class="blue-button">Algos</span>
-        <span class="blue-button">Games</span>
-        <span class="blue-button">Friends</span>
-        <span class="blue-button">Games</span>
-        <span class="blue-button">Friends</span>
-        <span class="darkgrey-button">Food</span>
-        <span class="grey-button">Design</span>
-        <span class="lightgrey-button">Art</span>
-        <span class="verylightgrey-button">Photos</span>
-      </div>
-    </div>
-    <br>
-    <!-- Alert Box -->
-    <div class="alert-box">
-      <span class="close-button"><ion-icon name="close"></ion-icon></span>
-      <p>Hey!</p>
-      <p>People are looking at your profile. Find out who.</p>
-    </div>
-  </div>
-  <!-- Left column end -->
 
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+    <!-- Main column end -->
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
