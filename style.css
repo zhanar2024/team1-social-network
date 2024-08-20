@@ -29,6 +29,11 @@ nav ul li {
   font-size: 20px;
 }
 
+nav ul li:hover {
+  background-color: lightgray;
+  color: black;
+}
+
 .logo {
   background-color: #216490;
   margin-left: -40px;
